@@ -292,6 +292,8 @@ section {background-image: url(https://i.postimg.cc/prMfXb6F/assets-1.jpg);
   
   .footer-logo {
     width: 150px;
+    box-shadow: 0 4px 10px rgba(39, 38, 38, 0.753);
+    border-radius: 20px;
   }
   
   .social-icons a {
