@@ -19,11 +19,13 @@
     padding: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-section {background-image: url(https://i.postimg.cc/prMfXb6F/assets-1.jpg);
+section {
+    background-image: url(https://i.postimg.cc/1Rbf7xNX/bg-wz.gif);
     background-size: cover;
     background-position: center;
     align-items: center;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+  }
 
 .search-bar {
     border: none;
@@ -31,10 +33,16 @@ section {background-image: url(https://i.postimg.cc/prMfXb6F/assets-1.jpg);
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
+    width: 45vw;
+    background-color: #f9f3f3;
 }
 
+::placeholder{
+    color: white;
+  }
+
 .search-button {
-    background-color: rgba(252, 195, 98, 0.73); /* Button color */
+    background-color: rgb(229, 157, 169); /* Button color */
     color: white;
     border: none;
     padding: 10px 15px;
@@ -44,11 +52,11 @@ section {background-image: url(https://i.postimg.cc/prMfXb6F/assets-1.jpg);
 }
 
 .search-button:hover {
-    background-color: #b55705; /* Button hover color */
+    background-color: rgb(195, 78, 78); /* Button hover color */
 }
 #ds{
     margin-top: 60px;
-    color: rgba(197, 119, 71, 0.837);
+    color: #4867c8d5;
 }
 
 /*GYAAN */
@@ -105,7 +113,7 @@ section {background-image: url(https://i.postimg.cc/prMfXb6F/assets-1.jpg);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #004527; /* Dark green background */
+    background-color: #27486c;
     padding: 50px;
     border-radius: 10px;
     margin:35px 50px;
@@ -118,8 +126,8 @@ section {background-image: url(https://i.postimg.cc/prMfXb6F/assets-1.jpg);
   }
   
   .logo {
-    width: 150px;
-    margin-bottom: 20px;
+    width: 200px;
+    margin-bottom: 5px;
   }
   
   #heading2{
@@ -292,7 +300,7 @@ section {background-image: url(https://i.postimg.cc/prMfXb6F/assets-1.jpg);
   
   .footer-logo {
     width: 150px;
-    box-shadow: 0 4px 10px rgba(39, 38, 38, 0.753);
+    /* box-shadow: 0 4px 10px rgba(39, 38, 38, 0.753); */
     border-radius: 20px;
   }
   
@@ -310,4 +318,3 @@ section {background-image: url(https://i.postimg.cc/prMfXb6F/assets-1.jpg);
     font-size: 14px;
     color: #666;
   }
-  
