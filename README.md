@@ -1,3 +1,3 @@
-Link for UpSkills:
+Link for WorkWiz:
 https://ohhharyann.github.io/UpSkills/
 
